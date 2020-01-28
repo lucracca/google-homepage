@@ -1,0 +1,128 @@
+.float-right {
+    float: right;
+}
+
+.center {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    font-family: Arial;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.nav {
+    font-size: 13px;
+    float: right;
+    text-align: right;
+}
+
+li.nav:hover {
+    text-decoration: underline;
+}
+
+img.navIcon {
+    border-radius: 50%;
+}
+
+li.navIcon {
+    padding: 7px;
+}
+
+li.footer {
+    font-size: 13px;
+    float: left;
+}
+
+li.footer:hover {
+    text-decoration: underline;
+}
+
+div.footersContainer {
+    position: fixed;
+    width: 100%;
+    display: block;
+    background-color: rgba(216, 216, 216, 0.24);
+    border-top: 1px solid rgb(223, 222, 222);
+}
+
+div.footer1 {
+    color: rgba(0, 0, 0, .54);
+    font-size: 13px;
+    bottom: 0;
+}
+
+div.footer2 {
+    color: rgba(0, 0, 0, .54);
+    font-size: 14px;
+    bottom: 40px;
+    font-family: arial;
+    padding: 0px 16px;
+}
+
+img.logo {
+    position: relative;
+    top: 80px;
+}
+
+input.searchBox {
+    position: relative;
+    top: 120px;
+    padding: 11px 16px;
+    line-height: 16px;
+    border-radius: 25px;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, .14);
+    width: 400px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0b/Search_Icon.svg");
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+}
+
+input.buttons {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .54);
+    position: relative;
+    top: 150px;
+    background-color: #f2f2f2;
+    padding: 12px;
+    border: 0;
+    border-radius: 5%;
+}
+
+input.buttons:hover {
+    border: solid;
+    border-width: 0.5px;
+    border-color: rgb(212, 212, 212);
+}
+
+.link {
+    position: relative;
+    color: blue;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 160px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+#offeredInLabel {
+    position: relative;
+    top: 160px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
